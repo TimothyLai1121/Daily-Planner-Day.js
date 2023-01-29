@@ -1,0 +1,72 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+/* font-family: 'Solitreo', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+/* font-family: 'Orbitron', sans-serif; */
+/* root */
+:root {
+    /* font-families */
+    --title: 'Solitreo', cursive;
+    --quotes: 'Dancing Script', cursive;
+    --lcd: 'Orbitron', sans-serif;
+    /* Cool and Modern */
+    --azure: #1f2bb5;
+    --artic: #9dcbe7;
+    --violet: #6b2084;
+    --spearmint: #A7DBC8;
+    --mint: #66c7a7;
+}
+
+
+/* jumbotron */
+/* !important will override bootstrap property */
+.jumbotron {
+    text-align: center;
+    background-color: var(--spearmint) !important;
+
+}
+/* jumbotron siblings */
+
+.title-box {
+    font-family: var(--title);
+    font-weight: bold;
+}
+
+.quote {
+    font-family: var(--quotes);
+}
+
+.quote span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alarm-clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: var(--lcd);
+    color: var(--azure);
+
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking {
+    animation: blinking 1s infinite;
+}
+
+/* container-fluid */
