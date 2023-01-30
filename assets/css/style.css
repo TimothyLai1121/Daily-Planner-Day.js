@@ -52,7 +52,7 @@
     color: var(--azure);
 
 }
-
+/*
 @keyframes blinking {
     0% {
         opacity: 1;
@@ -68,5 +68,5 @@
 .blinking {
     animation: blinking 1s infinite;
 }
-
+*/
 /* container-fluid */

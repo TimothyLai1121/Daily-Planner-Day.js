@@ -9,10 +9,12 @@ setInterval(() => {
 
 // adding hour, minute, seconds for separate //
 // Get the hour, minute, and seconds elements from the HTML
+/*
 const hour = document.getElementById("hour");
 const minute = document.getElementById("minute");
 const seconds = document.getElementById("seconds");
-
+*/
+/*
 // Define a function to update the clock
 function updateClock() {
   // Get the current time
@@ -22,4 +24,4 @@ function updateClock() {
   minute.innerHTML = now.format("mm");
   seconds.innerHTML = now.format("ss");
 }
-
+*/
