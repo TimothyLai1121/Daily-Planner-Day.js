@@ -23,15 +23,3 @@ function updateClock() {
   seconds.innerHTML = now.format("ss");
 }
 
-// Execute the updateClock function every 1000 milliseconds (1 second)
-setInterval(updateClock, 1000);
-
-// Local.Storage Reflect on Challenge 04 //
-var textarea = document.getElementById("textarea");
-var saveBtn = document.getElementById("submit-btn");
-saveBtn.addEventListener("click", function(){
-    localStorage.setItem("textarea", textarea.value);
-});
-
-var textarea = document.getElementById("textarea");
-textarea.value = localStorage.getItem("textarea");
