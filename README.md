@@ -23,6 +23,12 @@ On CSS. I used 3 fonts from GoogleFonts and Color Palette. My favorite part of t
 ![carbon-css](./assets/imgs/carbon.png)
 
 ### [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+On Javascript. The requirement is to use day.js
+* https://day.js.org/
+* dayjs().format()
+* I have used localStorage.setItem to save to local storage under inspect.
+* I have to parseInt(blockID.split(" ")[]) to remove the the classes w/ "am" and left number to get color change
+* I also included a small animation on sveBtn & reset btn on Jumbotron 
 
 ## References
 https://github.com/Naereen/badges/blob/master/README.md
