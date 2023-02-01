@@ -42,6 +42,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.displayTime {
+    font-family: var(--lcd);
+    padding-top: 30px;
+}
+
+/*
 .alarm-clock {
     display: flex;
     align-items: center;
@@ -52,7 +58,7 @@
     color: var(--azure);
 
 }
-/*
+
 @keyframes blinking {
     0% {
         opacity: 1;

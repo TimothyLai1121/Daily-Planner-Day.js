@@ -1,4 +1,6 @@
 // Adding setInterval w/ day.js for user for live update //
+// Adding alarm clock //
+/*
 setInterval(() => {
     const today = dayjs();
     const date = today.format("MMMM DD, YYYY");
@@ -25,3 +27,8 @@ function updateClock() {
   seconds.innerHTML = now.format("ss");
 }
 */
+
+// Attempt #2 //
+// https://day.js.org/docs/en/display/format //
+var todayDate = dayjs('2019-01-25').format('DD/MM/YYYY');
+$("#currentDate").html(todayDate);
