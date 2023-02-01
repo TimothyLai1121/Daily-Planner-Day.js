@@ -130,6 +130,11 @@ textarea.col-md-10 {
     font-weight: bold;
 }
 
+.page-footer {
+    background-color: var(--spearmint);
+    margin-top: 20px;
+    
+}
 
 
 /* adding media queries to move icon center */
@@ -139,11 +144,5 @@ textarea.col-md-10 {
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
   }
-}
-
-.page-footer {
-    background-color: var(--spearmint);
-    margin-top: 20px;
-    
 }
 
