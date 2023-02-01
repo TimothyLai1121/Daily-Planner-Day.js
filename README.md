@@ -1,3 +1,6 @@
 # Daily-Planner-Day.js
-Daily Planner with Day.Js
+Another Planner
 ![banner](./assets/imgs/Another_Planner.png)
+
+
+
