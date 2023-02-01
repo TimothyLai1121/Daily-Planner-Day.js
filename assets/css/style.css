@@ -24,11 +24,13 @@
 }
 
 
+
 /* jumbotron */
 /* !important will override bootstrap property */
 .jumbotron {
     text-align: center;
     background-color: var(--spearmint) !important;
+    
 
 }
 /* jumbotron siblings */
@@ -117,11 +119,13 @@ textarea.col-md-10 {
 }
 
 .hour {
-    font-weight: bold;
+    font-weight: ;
     font-family: var(--lcd);
     color: black;
     margin: auto;
 }
+
+
 
 
 
