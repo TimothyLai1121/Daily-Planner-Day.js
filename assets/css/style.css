@@ -17,6 +17,10 @@
     --violet: #6b2084;
     --spearmint: #A7DBC8;
     --mint: #66c7a7;
+    /* Past Present Future */
+    --past: #084c61;
+    --present: #db504a;
+    --future: #e3b505;
 }
 
 
@@ -75,4 +79,42 @@
     animation: blinking 1s infinite;
 }
 */
-/* container-fluid */
+/* container */
+
+
+/* Color Change. Add future, present, current */
+/* ! make sure to .past, .present, .future along with .textbox */
+
+.past .textbox {
+    background-color: var(--past);
+}
+
+
+.present .textbox {
+    background-color: var(--present);
+}
+
+.future .textbox {
+    background-color: var(--future);
+}
+
+textarea.col-md-10 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hour {
+    font-weight: bold;
+    font-family: var(--lcd);
+    color: black;
+    margin: auto;
+}
+
+
+
+@media (max-width: 576px) {
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+  }
+}
