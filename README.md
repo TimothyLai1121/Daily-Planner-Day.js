@@ -34,4 +34,14 @@ On Javascript. The requirement is to use day.js
 * I also included a small animation on sveBtn & reset btn on Jumbotron 
 
 ## References
-https://github.com/Naereen/badges/blob/master/README.md
+
+| Websites | Urls |
+| -------- | ---- |
+| Shield.io | [https://shields.io/] |
+| Banner Maker | [https://banner.godori.dev/] |
+| Javascript & Jquery | [https://javascriptbook.com/] |
+| Carbon | [https://carbon.now.sh/] |
+| YouTube | [https://www.youtube.com/] |
+| StackOverFlow | [https://stackoverflow.com/] |
+| Badges Git | [https://github.com/Naereen/badges/blob/master/README.md] |
+| Layoutit! | [https://www.layoutit.com/] |
