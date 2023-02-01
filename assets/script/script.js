@@ -1,3 +1,5 @@
+
+
 // Adding setInterval w/ day.js for user for live update //
 // Adding alarm clock //
 /*
@@ -74,7 +76,6 @@ $(".timeblock").each(function () {
 
 /* Testing color based on changing time in windows Date/Time */
 /* timeblock & icons showing color and not responding */
-
 /* currentTime is not defined in result showing only .future, html show future as class on all */
 /* using cdnjs to get latest version */
 /* after realizing that id in this case is senstive */
@@ -82,3 +83,17 @@ $(".timeblock").each(function () {
 /* console finally list current time and time in 24h */
 
 timeColorAM();
+
+/* adding animation */
+$(".btn").click(function(){
+  $(this).slideUp();
+});
+
+
+
+/* adding more function */
+/* refresh */
+document.getElementById("refreshBtn").addEventListener("click", function(){
+  location.reload();
+});
+

@@ -51,6 +51,13 @@
     padding-top: 30px;
 }
 
+header #refreshBtn{
+    font-size: 20px;
+    color: var(--artic);
+    background-color: var(--azure);
+    margin-top: 20px;
+}
+
 /*
 .alarm-clock {
     display: flex;
@@ -97,10 +104,16 @@
 .future .textbox {
     background-color: var(--future);
 }
-
+/* removing outlines */
+/* removing resize handle */
 textarea.col-md-10 {
     border: 1px solid #ccc;
     border-radius: 5px;
+    outline: none;
+    resize: none;
+    transition: all ease-in-out .5s;
+    text-align: center;
+    
 }
 
 .hour {
@@ -112,9 +125,16 @@ textarea.col-md-10 {
 
 
 
+/* adding media queries to move icon center */
+
 @media (max-width: 576px) {
   .btn {
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
   }
+}
+
+.page-footer {
+    background-color: var(--spearmint);
+    margin-top: 20px;
 }
