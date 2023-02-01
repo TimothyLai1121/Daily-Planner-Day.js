@@ -1,5 +1,3 @@
-
-
 // Adding setInterval w/ day.js for user for live update //
 // Adding alarm clock //
 /*
