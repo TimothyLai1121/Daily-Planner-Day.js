@@ -119,13 +119,16 @@ textarea.col-md-10 {
 }
 
 .hour {
-    font-weight: ;
+    font-weight: none;
     font-family: var(--lcd);
     color: black;
     margin: auto;
+    text-align: center;
 }
 
-
+.hour:hover {
+    font-weight: bold;
+}
 
 
 
