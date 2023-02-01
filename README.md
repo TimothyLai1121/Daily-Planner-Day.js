@@ -5,6 +5,9 @@
 ## Introduction 
 Here is another planner that I created for Coding BootCamp and my current job
 
+## Snippet
+![gifs](./assets/imgs/Daily%20Planner.gif)
+
 ## Language Uses
 
 ### [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
